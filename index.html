@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Youtube APP</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="heading">
+			Youtube App
+		</h1>
+		<form id="searchForm">
+		  <div class="input-group mb-3">
+		    <input id="searchBox" type="text" class="form-control" placeholder="Escribe aqui..." aria-label="New item" aria-describedby="searchBtn">
+		    <div class="input-group-append">
+		      <button class="btn btn-outline-secondary" type="button" id="searchBtn">Buscar</button>
+		    </div>
+		  </div>
+		</form>
+		<ul id="itemList" class="list-group"></ul>
+		<div id="prevPage" class="navigation" style="display: none;">&lt;Previous page </div>
+		<div id="nextPage" class="navigation" style="display: none;">Next page &gt;</div>
+
+		<input type="hidden" name="searchTerm" id="searched">
+    </div>
+
+</body>
+<script type="text/javascript" src="./js/script.js"></script>
+</html>
